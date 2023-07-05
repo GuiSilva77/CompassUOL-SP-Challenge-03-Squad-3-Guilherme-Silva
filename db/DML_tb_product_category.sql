@@ -1,0 +1,600 @@
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (1,21),
+  (2,19),
+  (3,21),
+  (4,28),
+  (5,9),
+  (6,15),
+  (7,3),
+  (8,20),
+  (9,15),
+  (10,8);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (11,8),
+  (12,18),
+  (13,4),
+  (14,2),
+  (15,19),
+  (16,16),
+  (17,8),
+  (18,28),
+  (19,14),
+  (20,19);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (21,2),
+  (22,18),
+  (23,7),
+  (24,21),
+  (25,26),
+  (26,28),
+  (27,8),
+  (28,17),
+  (29,25),
+  (30,13);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (31,6),
+  (32,28),
+  (33,8),
+  (34,28),
+  (35,29),
+  (36,12),
+  (37,27),
+  (38,2),
+  (39,15),
+  (40,8);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (41,27),
+  (42,26),
+  (43,24),
+  (44,23),
+  (45,16),
+  (46,12),
+  (47,21),
+  (48,21),
+  (49,26),
+  (50,4);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (51,29),
+  (52,4),
+  (53,8),
+  (54,10),
+  (55,5),
+  (56,17),
+  (57,25),
+  (58,26),
+  (59,7),
+  (60,22);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (61,29),
+  (62,6),
+  (63,22),
+  (64,13),
+  (65,24),
+  (66,6),
+  (67,21),
+  (68,8),
+  (69,27),
+  (70,26);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (71,12),
+  (72,21),
+  (73,25),
+  (74,1),
+  (75,8),
+  (76,26),
+  (77,2),
+  (78,14),
+  (79,7),
+  (80,24);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (81,9),
+  (82,4),
+  (83,2),
+  (84,2),
+  (85,10),
+  (86,16),
+  (87,23),
+  (88,27),
+  (89,16),
+  (90,11);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (91,18),
+  (92,29),
+  (93,27),
+  (94,3),
+  (95,24),
+  (96,17),
+  (97,13),
+  (98,18),
+  (99,3),
+  (100,11);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (101,2),
+  (102,12),
+  (103,20),
+  (104,23),
+  (105,1),
+  (106,24),
+  (107,10),
+  (108,17),
+  (109,13),
+  (110,16);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (111,17),
+  (112,2),
+  (113,22),
+  (114,6),
+  (115,20),
+  (116,15),
+  (117,6),
+  (118,10),
+  (119,26),
+  (120,5);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (121,28),
+  (122,7),
+  (123,20),
+  (124,2),
+  (125,24),
+  (126,5),
+  (127,29),
+  (128,10),
+  (129,1),
+  (130,24);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (131,9),
+  (132,20),
+  (133,19),
+  (134,16),
+  (135,26),
+  (136,29),
+  (137,5),
+  (138,9),
+  (139,18),
+  (140,5);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (141,5),
+  (142,22),
+  (143,24),
+  (144,6),
+  (145,29),
+  (146,11),
+  (147,23),
+  (148,26),
+  (149,4),
+  (150,11);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (151,28),
+  (152,7),
+  (153,13),
+  (154,14),
+  (155,3),
+  (156,18),
+  (157,14),
+  (158,17),
+  (159,22),
+  (160,22);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (161,20),
+  (162,9),
+  (163,22),
+  (164,20),
+  (165,7),
+  (166,2),
+  (167,20),
+  (168,14),
+  (169,27),
+  (170,3);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (171,23),
+  (172,4),
+  (173,13),
+  (174,24),
+  (175,6),
+  (176,26),
+  (177,11),
+  (178,26),
+  (179,25),
+  (180,27);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (181,13),
+  (182,26),
+  (183,20),
+  (184,9),
+  (185,22),
+  (186,1),
+  (187,2),
+  (188,27),
+  (189,11),
+  (190,24);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (191,27),
+  (192,9),
+  (193,1),
+  (194,5),
+  (195,24),
+  (196,5),
+  (197,26),
+  (198,25),
+  (199,13),
+  (200,5);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (201,4),
+  (202,17),
+  (203,10),
+  (204,14),
+  (205,24),
+  (206,27),
+  (207,18),
+  (208,5),
+  (209,29),
+  (210,1);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (211,17),
+  (212,11),
+  (213,25),
+  (214,29),
+  (215,17),
+  (216,30),
+  (217,13),
+  (218,26),
+  (219,7),
+  (220,9);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (221,4),
+  (222,13),
+  (223,11),
+  (224,12),
+  (225,13),
+  (226,29),
+  (227,2),
+  (228,18),
+  (229,13),
+  (230,26);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (231,14),
+  (232,21),
+  (233,9),
+  (234,29),
+  (235,14),
+  (236,5),
+  (237,18),
+  (238,29),
+  (239,16),
+  (240,17);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (241,4),
+  (242,14),
+  (243,23),
+  (244,27),
+  (245,11),
+  (246,8),
+  (247,2),
+  (248,13),
+  (249,5),
+  (250,9);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (251,23),
+  (252,20),
+  (253,25),
+  (254,8),
+  (255,10),
+  (256,3),
+  (257,3),
+  (258,13),
+  (259,18),
+  (260,17);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (261,3),
+  (262,4),
+  (263,3),
+  (264,18),
+  (265,10),
+  (266,19),
+  (267,11),
+  (268,30),
+  (269,2),
+  (270,16);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (271,23),
+  (272,7),
+  (273,11),
+  (274,17),
+  (275,16),
+  (276,27),
+  (277,28),
+  (278,9),
+  (279,15),
+  (280,25);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (281,10),
+  (282,13),
+  (283,26),
+  (284,15),
+  (285,14),
+  (286,17),
+  (287,11),
+  (288,7),
+  (289,9),
+  (290,22);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (291,3),
+  (292,21),
+  (293,15),
+  (294,29),
+  (295,2),
+  (296,12),
+  (297,12),
+  (298,10),
+  (299,7),
+  (300,21);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (301,23),
+  (302,2),
+  (303,3),
+  (304,17),
+  (305,30),
+  (306,16),
+  (307,28),
+  (308,16),
+  (309,18),
+  (310,18);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (311,22),
+  (312,21),
+  (313,22),
+  (314,17),
+  (315,10),
+  (316,21),
+  (317,25),
+  (318,6),
+  (319,16),
+  (320,10);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (321,15),
+  (322,4),
+  (323,21),
+  (324,2),
+  (325,29),
+  (326,6),
+  (327,25),
+  (328,20),
+  (329,29),
+  (330,7);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (331,14),
+  (332,14),
+  (333,5),
+  (334,4),
+  (335,26),
+  (336,20),
+  (337,1),
+  (338,4),
+  (339,20),
+  (340,6);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (341,3),
+  (342,13),
+  (343,4),
+  (344,11),
+  (345,10),
+  (346,27),
+  (347,18),
+  (348,24),
+  (349,15),
+  (350,25);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (351,3),
+  (352,13),
+  (353,22),
+  (354,22),
+  (355,20),
+  (356,23),
+  (357,25),
+  (358,15),
+  (359,4),
+  (360,24);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (361,24),
+  (362,25),
+  (363,13),
+  (364,3),
+  (365,11),
+  (366,25),
+  (367,27),
+  (368,12),
+  (369,25),
+  (370,30);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (371,5),
+  (372,27),
+  (373,19),
+  (374,18),
+  (375,7),
+  (376,24),
+  (377,29),
+  (378,12),
+  (379,29),
+  (380,19);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (381,13),
+  (382,22),
+  (383,17),
+  (384,22),
+  (385,3),
+  (386,7),
+  (387,22),
+  (388,7),
+  (389,2),
+  (390,15);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (391,27),
+  (392,10),
+  (393,13),
+  (394,3),
+  (395,12),
+  (396,28),
+  (397,8),
+  (398,17),
+  (399,2),
+  (400,6);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (401,28),
+  (402,7),
+  (403,6),
+  (404,8),
+  (405,14),
+  (406,27),
+  (407,28),
+  (408,16),
+  (409,18),
+  (410,8);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (411,29),
+  (412,25),
+  (413,6),
+  (414,29),
+  (415,23),
+  (416,23),
+  (417,29),
+  (418,7),
+  (419,5),
+  (420,20);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (421,30),
+  (422,6),
+  (423,18),
+  (424,4),
+  (425,13),
+  (426,5),
+  (427,4),
+  (428,7),
+  (429,4),
+  (430,28);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (431,15),
+  (432,11),
+  (433,9),
+  (434,9),
+  (435,11),
+  (436,18),
+  (437,9),
+  (438,11),
+  (439,3),
+  (440,18);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (441,3),
+  (442,3),
+  (443,19),
+  (444,27),
+  (445,24),
+  (446,10),
+  (447,27),
+  (448,22),
+  (449,16),
+  (450,10);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (451,3),
+  (452,4),
+  (453,12),
+  (454,3),
+  (455,25),
+  (456,27),
+  (457,26),
+  (458,17),
+  (459,1),
+  (460,5);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (461,19),
+  (462,29),
+  (463,29),
+  (464,26),
+  (465,21),
+  (466,16),
+  (467,9),
+  (468,10),
+  (469,16),
+  (470,20);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (471,27),
+  (472,30),
+  (473,12),
+  (474,19),
+  (475,2),
+  (476,17),
+  (477,20),
+  (478,22),
+  (479,29),
+  (480,4);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (481,13),
+  (482,6),
+  (483,23),
+  (484,5),
+  (485,17),
+  (486,27),
+  (487,18),
+  (488,15),
+  (489,17),
+  (490,5);
+INSERT INTO `tb_product_category` (`id_product`,`id_category`)
+VALUES
+  (491,21),
+  (492,18),
+  (493,18),
+  (494,16),
+  (495,20),
+  (496,5),
+  (497,15),
+  (498,25),
+  (499,1),
+  (500,16);
