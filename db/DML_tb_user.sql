@@ -1,7 +1,7 @@
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
-  ('Elmo','do Nascimento','e.donascimento9055@bol.com','FTE5MNU1HFJ1OXQ'),
-  ('Tate','Torres','t.tate3108@outlook.com','NOF7WEF6UZQ4PZV'),
+  ('Elmo','do Nascimento','e.donascimento9055@bol.com','{brcrypt}$2a$12$44CZ75Enax.E3zDVVkUMAOYslh31z0M5vLbNpXLTwGdfaC5jnY/ae'),
+  ('Tate','Torres','t.tate3108@outlook.com','{brcrypt}$2a$12$44CZ75Enax.E3zDVVkUMAOYslh31z0M5vLbNpXLTwGdfaC5jnY/ae'),
   ('Yoshio','Tavares','y_tavares1352@gmail.com','JWX4WPA1POC9SQE'),
   ('Petra','Santos','s.petra@gmail.com','PCQ2RYL2IXT1WPN'),
   ('Aspen','Miranda','miranda_aspen@gmail.com','UFH3LUG6ZIV1RVV'),
@@ -10,7 +10,7 @@ VALUES
   ('Audra','de Paula','depaulaaudra3470@outlook.com','BBM3KAL4HZS3FBL'),
   ('Heather','da Costa','h.dacosta@outlook.com','RRB8RXO5DKU5WYX'),
   ('Xena','de Azevedo','xdeazevedo2504@outlook.com','PXC7WSU5KRG7MJM');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Rashad','Torres','rashad_torres2625@bol.com','RLD3UIH6RVE2TPG'),
   ('Rosalyn','Mota','rosalyn.mota8347@bol.com','CIO8SFR6RSU2SQT'),
@@ -22,7 +22,7 @@ VALUES
   ('Prescott','da Silva','dasilvaprescott@hotmail.com','GRT1SMI0HFW7GGU'),
   ('Emily','Ramos','emilyramos8882@gmail.com','YMX2RET1AJG7YUR'),
   ('Dalton','Barboza','d_barboza@outlook.com','DVF6VYD5ZWB7YPF');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Germaine','Gomes','g-gomes@outlook.com','IBR2UIX5TXB6RTI'),
   ('Amir','de Andrade','a.deandrade6056@gmail.com','KOR3KBN4BKW9XIE'),
@@ -34,7 +34,7 @@ VALUES
   ('Cameron','Dantas','cameron_dantas@bol.com','MPD3MKX4MUX1YJN'),
   ('Kim','Campos','k.campos6627@outlook.com','ENT4BJH6ASX4NGR'),
   ('Montana','Sántos','smontana@bol.com','CIZ7PHA1YIM6RXW');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Harper','Correa','h_correa@outlook.com','HAY6BOQ6UMX5XCD'),
   ('Rhonda','Das Chagas','rhonda_daschagas@bol.com','DWV1MRF0UQH7OLV'),
@@ -46,7 +46,7 @@ VALUES
   ('Lee','de Castro','decastro-lee372@gmail.com','TSP2DAB3AUV8RSF'),
   ('Nathan','de Fatima','d-nathan8704@outlook.com','KOE6PPA6VAP4UDM'),
   ('Juliet','Nogueira','j.nogueira782@outlook.com','AXP3WVU8SLG5EAQ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Ingrid','Carvalho','ingrid.carvalho@gmail.com','VEP8EEU5NEI1UNZ'),
   ('Christian','Felix','f-christian@bol.com','FKX2MNY3YMG8PFG'),
@@ -58,7 +58,7 @@ VALUES
   ('Hedley','Correa','c_hedley@outlook.com','XNM8YTW1WMO5DRZ'),
   ('Ryan','Marques','marquesryan@hotmail.com','OCH9VVC4DFS3CLV'),
   ('Ivana','Araujo','i-araujo2611@bol.com','MRP3BVS2OMV4VIP');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Eaton','Messias','e-messias6455@bol.com','RQD3HJU5YVD6EFV'),
   ('Baxter','de Andrade','b.deandrade@gmail.com','OMM6JQR9QUG4OUU'),
@@ -70,7 +70,7 @@ VALUES
   ('Gil','Monteiro','m_gil@bol.com','TRE1TYF5HPT0DYT'),
   ('Kibo','Sampaio','k-sampaio2311@outlook.com','JVU8BOI9OZU8ORB'),
   ('Vivien','Souza','s.vivien562@gmail.com','VOB0GYP3SHQ0IVQ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Micah','da Costa','mdacosta8699@bol.com','GEF2LPC4VLH2BGZ'),
   ('Cain','Farias','c-farias@gmail.com','IZW5DYG9YWK8ECB'),
@@ -82,7 +82,7 @@ VALUES
   ('Haley','Maia','h_maia1356@outlook.com','EMO1UJC4RYX3QQD'),
   ('Kai','de Freitas','kdefreitas9088@bol.com','ULI6JWX8YQV8AQY'),
   ('Shelley','Barros','sbarros@bol.com','NSC1YJL8GKC7AVG');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Hannah','Chagas','channah1995@gmail.com','DIB2XNN6BCD8BEO'),
   ('Nita','da Rocha','darocha.nita2378@gmail.com','JQX3QSM3OWK6XHD'),
@@ -94,7 +94,7 @@ VALUES
   ('Erin','Moraes','erin.moraes@outlook.com','CMM7IWB0QJE5HTL'),
   ('Clio','Coelho','cliocoelho9508@bol.com','QVU6XNS8POR1MIF'),
   ('Rowan','Mota','r-mota3693@gmail.com','UMF3EMH9ESO7ORR');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Mufutau','Oliveira','o-mufutau@gmail.com','TWL7YEE8NVY3LSM'),
   ('Hilary','Medeiros','medeiros.hilary@bol.com','NQB3DVX5VPC7RVB'),
@@ -106,7 +106,7 @@ VALUES
   ('Ulla','Teles','telesulla2778@gmail.com','SLU2CKW0QCW5IPT'),
   ('Callum','Guedes','guedes-callum@gmail.com','UDB1ZKU5DBT1LIU'),
   ('Wendy','Franca','franca-wendy1987@hotmail.com','MQY6UHK1PIY7SBO');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Alma','da Rocha','adarocha6808@bol.com','BDJ4DET7YTJ6DZA'),
   ('Connor','Bezerra','connorbezerra@bol.com','LHD7LUW4BUH5VTH'),
@@ -118,7 +118,7 @@ VALUES
   ('Adam','de Lourdes','a.delourdes659@gmail.com','KBH2WNG4UOB8VPR'),
   ('Bell','da Rosa','b_darosa@gmail.com','OEE8HQD2BBL5STB'),
   ('Kessie','Barbosa','kessie.barbosa@bol.com','IJY1FFJ8QHU0JFZ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Honorato','Caetano','hcaetano7624@hotmail.com','ICR2PGV3SFP5UDX'),
   ('Gail','da Conceiçao','daconceiao-gail@outlook.com','XLI5MHB3ETD5LYW'),
@@ -130,7 +130,7 @@ VALUES
   ('Violet','Mendonca','v_mendonca5642@hotmail.com','QVW1XWT9VPG8MMJ'),
   ('Adrienne','Muniz','munizadrienne@hotmail.com','FPE6IBM7EKM6TDI'),
   ('Cairo','Batista','batista-cairo@outlook.com','CJN3VGV4OIR7KJC');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Jacob','Galdino','galdino.jacob4389@outlook.com','NNT0NXT8FCV1XMM'),
   ('Tamara','Messias','t_messias6639@outlook.com','CVD7VMJ2QKO5CFV'),
@@ -142,7 +142,7 @@ VALUES
   ('Marah','de Lima','delima_marah9746@hotmail.com','OFR8CGL5YCF2NEU'),
   ('Jane','Faria','faria_jane8321@gmail.com','AVU7CMF1VJR4UXX'),
   ('Tanner','Ramos','tramos@bol.com','MPG7NEC2HTO6HXO');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Vladimir','Carvalho','v.carvalho6004@bol.com','XJU8MHO4PLI2XNO'),
   ('Ingrid','Teixeira','teixeiraingrid3517@hotmail.com','HIQ7QTJ1DWH4NXV'),
@@ -154,7 +154,7 @@ VALUES
   ('Jacqueline','Sántos','jacqueline.sntos2604@bol.com','HTR2FGV4VIY4KPX'),
   ('Joel','Brandao','joelbrandao@bol.com','IEO7VES3UTQ2UMD'),
   ('Inez','Pacheco','inez-pacheco7762@bol.com','QZN5MNR2LKJ7GBG');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Faith','Lemos','lemos_faith3380@bol.com','WNG1BZB2RZP4UPS'),
   ('Tobias','Antunes','antunes.tobias@gmail.com','OBU2AKZ3WIE2GBO'),
@@ -166,7 +166,7 @@ VALUES
   ('Lucy','Duarte','l_duarte8966@outlook.com','QNG0RXU4MZV2DCZ'),
   ('Ayanna','Fernandes','afernandes@bol.com','MBE1VUE1VUQ9BYW'),
   ('Colorado','Silva','scolorado@outlook.com','TCN3OTP3SGO5JYG');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Keane','Fernandes','fernandes_keane3307@gmail.com','NBW9SGV8YCO3HPI'),
   ('Chastity','de Lourdes','chastity.delourdes@bol.com','HHJ3YYW2DLN0MCC'),
@@ -178,7 +178,7 @@ VALUES
   ('Candace','Domingues','domingues.candace@outlook.com','CBR3OWP4MYV1WRD'),
   ('Leandra','de Matos','dematos_leandra9567@gmail.com','JMW6EHU2HKM5UPX'),
   ('Stewart','Franco','franco.stewart@gmail.com','CKP4STB5YHV8FNF');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Dana','Pacheco','d.pacheco@bol.com','OSG1TPL8IQJ5KTS'),
   ('Emi','Simoes','emi-simoes@gmail.com','UGM0ORS1FOD8PSC'),
@@ -190,7 +190,7 @@ VALUES
   ('Hayfa','Matos','hayfa.matos@gmail.com','WGK6KUK3STX7XWU'),
   ('Lavinia','Lima','llima5001@gmail.com','KCD2GTU6QYQ7MNO'),
   ('Henry','Mariano','m.henry3020@outlook.com','MVZ7OGY1DPI8ZJK');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Laith','Dantas','d-laith@hotmail.com','JJP5CCA3WXH0GAV'),
   ('Quemby','de Freitas','q_defreitas@hotmail.com','SMQ2ELV4QXM5LPT'),
@@ -202,7 +202,7 @@ VALUES
   ('Grant','Araujo','a_grant8311@gmail.com','ZEW8UZM2PCG6BZA'),
   ('Dean','de Barros','dean_debarros@gmail.com','EIV2XIM5XPX5WFW'),
   ('Cameron','Bezerra','bcameron@hotmail.com','ZTP0HVJ6UVZ7VBN');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Odette','Machado','odettemachado@gmail.com','MQS3WIO8MSC2GGD'),
   ('Cherokee','Correa','correacherokee@gmail.com','JWM2WBZ0PXW9DPI'),
@@ -214,7 +214,7 @@ VALUES
   ('Stuart','Freire','freirestuart9257@hotmail.com','JYA3MWX3NTQ7TWI'),
   ('Ignatius','Ferraz','ferrazignatius2566@outlook.com','UFG9JCQ5MOM6TGD'),
   ('Shafira','Barbosa','shafirabarbosa@gmail.com','RFR4LDT3HKE8IQJ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Ocean','Pires','opires@gmail.com','JJG6YEK6WKX1PLB'),
   ('Michael','de Paula','depaulamichael5966@gmail.com','TER2TCO0UYS8WRD'),
@@ -226,7 +226,7 @@ VALUES
   ('Amery','Carvalho','a.carvalho1237@bol.com','DHI6JCJ8TWE2QWJ'),
   ('Drew','de Melo','d-demelo@outlook.com','FRI6SAE9BXV6QBW'),
   ('Wanda','Alves','awanda@outlook.com','ZQF6CGL0CWD4VLV');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Raymond','Santana','r.santana9649@gmail.com','CDB3UAW4CLT6TKR'),
   ('Alec','Rezende','rezende_alec@outlook.com','GVB5JGZ6GUE2HMK'),
@@ -238,7 +238,7 @@ VALUES
   ('Adrian','Maciel','maciel_adrian@outlook.com','SXV5YNO4DCK6FZF'),
   ('Nichole','Peixoto','nicholepeixoto6924@outlook.com','VMM3JAK7TVD6KPU'),
   ('Barrett','Sampaio','sampaio_barrett@outlook.com','QRB2FMD2RYU5CJM');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Travis','Souza','t-souza@bol.com','PHB8RPB7MBD8VMH'),
   ('Aaron','Menezes','menezes-aaron4557@hotmail.com','BZL1TBN7MIL9POF'),
@@ -250,7 +250,7 @@ VALUES
   ('Stuart','Santiago','s.stuart1936@bol.com','CDF2ASY5QMW8WCD'),
   ('Carlos','do Nascimento','donascimentocarlos6084@gmail.com','HUS4NMU8EDM2HXL'),
   ('Hanae','Mariano','mariano-hanae2335@bol.com','UPJ0ODJ5XTK8ILK');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Oren','Martins','moren@gmail.com','XSH7KKF2SYS6WTF'),
   ('Elaine','Araujo','elaine.araujo739@bol.com','YRO2IWA2IMW1OPB'),
@@ -262,7 +262,7 @@ VALUES
   ('Randall','Silva','silva-randall@bol.com','SOV5OJN4ZHP2CAF'),
   ('Ori','do Carmo','docarmo.ori1387@gmail.com','GXI1HME4COE5EQX'),
   ('Dolan','Machado','machado.dolan@outlook.com','BYJ2YFK6NIT7WJX');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Kerry','Barbosa','barbosa_kerry9578@outlook.com','PME5RQW7JIN9CHB'),
   ('Sheila','Nunes','nsheila4266@hotmail.com','GWY5OIO6CSH5ERL'),
@@ -274,7 +274,7 @@ VALUES
   ('Hayes','dos Anjos','h-dosanjos@gmail.com','XVI2VUQ1UUC1RXY'),
   ('Cole','Custodio','cole.custodio@outlook.com','RNB9YJO3FME8JRJ'),
   ('Bethany','Campos','campos-bethany7366@bol.com','RHS0EPM1LBX6KEL');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Gage','Leite','gleite@hotmail.com','BDP4INZ6BDK2QRN'),
   ('Prescott','Galdino','p-galdino212@hotmail.com','EMU1XXH1RLG8NYN'),
@@ -286,7 +286,7 @@ VALUES
   ('Jenna','Garcia','jennagarcia@bol.com','UZX8YCM1NVV8JGI'),
   ('Ferdinand','Matos','matosferdinand@outlook.com','TIK6PVM3UYT7PEY'),
   ('Alan','Morais','alan_morais7332@bol.com','OJE6IKS8GTN5VNZ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Maggy','de Lima','d-maggy4976@outlook.com','TNZ3CWO6STK1XYM'),
   ('Hector','da Rosa','darosa_hector7765@hotmail.com','KDM6ERW8TFH6HGW'),
@@ -298,7 +298,7 @@ VALUES
   ('Evan','de Jesus','dejesus_evan7337@hotmail.com','FNX3FDJ4WIS3VQJ'),
   ('Harrison','Garcia','harrison_garcia7907@gmail.com','AKX7DNG2DCG3BCG'),
   ('Herman','Mariano','h_mariano@outlook.com','KNU7TNB7YFN1PEU');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Andrew','Mendes','m-andrew86@hotmail.com','LLE1DGU5WTL4GIJ'),
   ('Raphael','de Lima','raphaeldelima@bol.com','KUH4ZDW3WTX5KRO'),
@@ -310,7 +310,7 @@ VALUES
   ('Margaret','Cabral','cabralmargaret5960@gmail.com','LVS2YBI6LVB7ZHJ'),
   ('Victor','Batista','batista.victor9752@hotmail.com','JFG8MSM6FLW7CXX'),
   ('Farrah','Mariano','mariano_farrah1315@gmail.com','FQR2TEM1DES4UJZ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Erich','de Assis','deassiserich3484@gmail.com','UKL7GRX3AFQ9QXK'),
   ('Remedios','Galdino','galdino_remedios942@bol.com','TKH2IYC5EFC8EJA'),
@@ -322,7 +322,7 @@ VALUES
   ('Maxine','de Barros','debarros-maxine1849@bol.com','CHD1GAR3RRF8VEX'),
   ('Kay','de Souza','desouzakay@hotmail.com','FDW8HDH1FXI6PHT'),
   ('Maxwell','Mendonca','m-mendonca@gmail.com','SFT1UOY2PPW1OWG');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('MacKenzie','Silva','s-mackenzie5750@bol.com','BOE7LGK4DEA2CYT'),
   ('Barrett','de Brito','d.barrett8727@bol.com','PXP5SSK7GBL7ZVE'),
@@ -334,7 +334,7 @@ VALUES
   ('Dahlia','Queiroz','queiroz.dahlia4693@hotmail.com','JBA3NHG4OVF1BIX'),
   ('Wing','de Freitas','w_defreitas@bol.com','XPX1YVK4AUH8SUU'),
   ('Patricia','de Assis','d-patricia@bol.com','UZL0WEG7KXU7QJA');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Jonas','Rocha','rochajonas5260@hotmail.com','FSR3CNQ5XYC9TVU'),
   ('Jocelyn','Rezende','jrezende@gmail.com','CCG3MJL0SOB4FQS'),
@@ -346,7 +346,7 @@ VALUES
   ('Sasha','de Assis','deassissasha@gmail.com','UXL8GTD8PHH3FXD'),
   ('Gregory','Caetano','gcaetano@bol.com','LQA1RSY4PNJ6NJC'),
   ('Shad','Gonçalves','shad-gonalves8396@hotmail.com','MLW2FHJ7RFU7THC');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Amery','Pereira','amery_pereira@bol.com','YTM1UIC8LUB5KRH'),
   ('Kaseem','dos Anjos','dosanjos_kaseem4686@hotmail.com','LTU8JLH8WSL8PHM'),
@@ -358,7 +358,7 @@ VALUES
   ('Barbara','Abreu','a.barbara8347@hotmail.com','SHO4WSE9MXU5HCN'),
   ('Ella','Braz','bella1185@outlook.com','PNE7VPY2RBF5YHM'),
   ('Zahir','Soares','soares_zahir7738@bol.com','PKD1JOW5FDR6BUN');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Marah','Rosa','rosamarah@outlook.com','TQF3KJC3BGF9NPU'),
   ('Malcolm','Paulino','p_malcolm4931@outlook.com','WGE6FMA0EEY2FVJ'),
@@ -370,7 +370,7 @@ VALUES
   ('Ainsley','Pacheco','pacheco_ainsley2464@hotmail.com','CGP3NEQ5XEM9MMA'),
   ('Ima','Santos','i.santos6861@gmail.com','NBU6PMQ2QFE5RRF'),
   ('Isadora','Teles','i-teles@outlook.com','JJN7OCB2LJU0VMV');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Elmo','Viana','e_viana@gmail.com','UVY5URB4CUP6TKE'),
   ('Haviva','Moraes','haviva.moraes4483@bol.com','OKP3TWO9BQN5SHL'),
@@ -382,7 +382,7 @@ VALUES
   ('Quinlan','Pinheiro','pinheiro.quinlan@hotmail.com','HAL7STS9NHU6LUB'),
   ('Slade','dos Santos','s.dossantos@bol.com','YDV1VVO8TRJ1GHO'),
   ('Erasmus','Neves','neves.erasmus3440@hotmail.com','KUF1MOO6BWP0WHW');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Rylee','de Melo','demelo-rylee2498@bol.com','XOS4TMQ2BDD2GHV'),
   ('Martena','Sales','m.sales@hotmail.com','TFW7OXT7KGX4MKN'),
@@ -394,7 +394,7 @@ VALUES
   ('Wade','Pacheco','pacheco.wade5570@outlook.com','GRQ4TFO6TWG8NOK'),
   ('Linus','Melo','melolinus1750@bol.com','NXH7XBR8ELX7MGX'),
   ('Talon','Freire','f.talon947@bol.com','JVG8TWI1WXU1XNW');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Lacy','Barboza','l_barboza3735@hotmail.com','RWS6HWW8TYK7XJR'),
   ('Liberty','Amorim','amorim-liberty@hotmail.com','OLE6IJW9VQB8TXK'),
@@ -406,7 +406,7 @@ VALUES
   ('Barclay','Martins','m.barclay310@bol.com','YSA4UOU8CYY1PGF'),
   ('Wylie','dos Reis','dosreis_wylie@outlook.com','RJQ8WEH2JZX6VGL'),
   ('Jordan','Guimaraes','j.guimaraes@bol.com','LPI6TOV5CIR8GFO');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Rhoda','Xavier','xavier_rhoda3469@gmail.com','UMD8UGO6XQT7RMD'),
   ('Anthony','Nascimento','nascimento-anthony2882@hotmail.com','MDB9XSI6AOX7XDR'),
@@ -418,7 +418,7 @@ VALUES
   ('Ariel','Simoes','arielsimoes9340@bol.com','IXV4IEF2HGF4WJP'),
   ('Nigel','Azevedo','azevedo_nigel@bol.com','LOC9XXX3NMY8OZI'),
   ('Lars','Ramos','r.lars8932@hotmail.com','XXB5SLA6FDI8CYF');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Yetta','Souza','souza_yetta7844@outlook.com','RWX2VZD3LEJ1GJS'),
   ('Francis','de Carvalho','decarvalho_francis7662@bol.com','TYW8WKP8XML8ELF'),
@@ -430,7 +430,7 @@ VALUES
   ('Hyacinth','Mendonca','h_mendonca@outlook.com','FSS0HCO9GKB7GJI'),
   ('Isabelle','de Morais','d-isabelle2658@gmail.com','KTG3DEQ2VAB1DRP'),
   ('Dolan','Oliveira','d_oliveira@bol.com','OJT6VAU4CTC1KJR');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Barry','da Rosa','b-darosa@hotmail.com','TCQ8LJY7HLR9TCY'),
   ('Elizabeth','de Souza','e_desouza@gmail.com','KUL7VXO4HKZ7JBJ'),
@@ -442,7 +442,7 @@ VALUES
   ('Hu','Aparecido','haparecido@outlook.com','PXF7KFG2CVD4ALH'),
   ('Leigh','Bastos','b-leigh@bol.com','JLT4EHT4DQE3JMP'),
   ('Sopoline','Vieira','sopoline_vieira1718@hotmail.com','FNS4OQN6NJQ3SFC');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Dara','Barbosa','d_barbosa2767@outlook.com','GPS0KGI1EFB5EVQ'),
   ('Lois','Santiago','santiagolois9298@hotmail.com','JMG6RPX7OTN2RUI'),
@@ -454,7 +454,7 @@ VALUES
   ('Kirsten','Alves','a.kirsten3095@gmail.com','YMT4JFD7VPO8ENC'),
   ('Alden','Muniz','a-muniz6831@gmail.com','YEQ9JUP6FIN5WEY'),
   ('Chandler','Teles','cteles6742@gmail.com','FCU1DVA1RWQ9KTT');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Kimberly','Andrade','andrade-kimberly@gmail.com','TKO1KPO8DBB1OQU'),
   ('Stacy','Franca','sfranca1040@hotmail.com','FBJ3HKM3SGI6WSP'),
@@ -466,7 +466,7 @@ VALUES
   ('Hammett','Das Neves','h-dasneves@hotmail.com','RBL4VRO7DRA9GIL'),
   ('Sylvia','da Silveira','dasilveirasylvia3859@bol.com','LKE9WED5NZY8QCM'),
   ('Nolan','Xavier','xaviernolan@hotmail.com','LFT1CSF5HGR4WEE');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Medge','Candido','m_candido@bol.com','LSE2MNL8FKF2WQQ'),
   ('Rae','Medeiros','r.medeiros@hotmail.com','RXF6VCU1CKQ9YAF'),
@@ -478,7 +478,7 @@ VALUES
   ('Vladimir','de Araujo','dearaujovladimir@gmail.com','DRI7OBF9ORT7UTG'),
   ('Barry','Andrade','bandrade8929@gmail.com','ZDT3NTX1WGX6PCA'),
   ('Shellie','Sales','ssales@hotmail.com','HYG3GWD7LLU7PEC');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Whitney','Tavares','w-tavares431@outlook.com','SLE7KSP7API8WGJ'),
   ('Gillian','Guedes','guedes-gillian@outlook.com','MVI3OCM1TSQ5UCT'),
@@ -490,7 +490,7 @@ VALUES
   ('Len','Braga','braga.len4747@hotmail.com','VIB3CJQ7EWD5XJJ'),
   ('August','Chaves','caugust7971@bol.com','BTK6FWO2OCX5YEU'),
   ('Piper','Braz','braz.piper4994@hotmail.com','DVP5IQL7BQW4JFF');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Jocelyn','da Conceiçao','d.jocelyn@gmail.com','WDL6FCV1STR8DEO'),
   ('Kieran','Maciel','maciel_kieran2280@gmail.com','XYU6YKP4GRV7BQK'),
@@ -502,7 +502,7 @@ VALUES
   ('Brent','de Barros','d_brent@outlook.com','NMH7ZTY4ZKP2RXF'),
   ('Kameko','de Moura','d_kameko@bol.com','LBQ6NIF2HWL5VVW'),
   ('Kessie','Barbosa','b-kessie9728@outlook.com','QSG3YTI2DZW7KGH');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Erin','da Rosa','edarosa@gmail.com','WKE8MED4BTD1CCR'),
   ('Norman','Guimaraes','g-norman@bol.com','BFW4ZUY1FQF7YPS'),
@@ -514,7 +514,7 @@ VALUES
   ('Ayanna','Ramos','r_ayanna1534@outlook.com','YIC8AVE1UXM6BHL'),
   ('Dominic','Mota','m_dominic@hotmail.com','TMS8LDE2RRX5XXO'),
   ('Haley','de Castro','decastrohaley@bol.com','EMM1YMY4BYH4KNJ');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Yuli','da Rocha','y_darocha3110@bol.com','CIM7GNE6BCQ6RHJ'),
   ('Teegan','Moreira','moreira_teegan@hotmail.com','AXG8YHO2GGU2IGW'),
@@ -526,7 +526,7 @@ VALUES
   ('Ulla','Queiroz','queirozulla8500@gmail.com','RCX1JGI8IRW8PNK'),
   ('Vincent','Barros','v.barros@hotmail.com','WJI8BTX7NHC8CXT'),
   ('Nigel','Moreira','m_nigel9237@bol.com','YKB3QQJ6WEG1CFX');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Macy','Cunha','macy-cunha2988@gmail.com','ZUH1GBY5FTK1MCG'),
   ('Kessie','Aparecido','kessieaparecido7845@gmail.com','YYC8VOG4IZA2YQQ'),
@@ -538,7 +538,7 @@ VALUES
   ('Rhonda','de Santana','rhonda-desantana2902@bol.com','OQJ1THQ2PYG0NKA'),
   ('Justin','Cunha','justin_cunha@hotmail.com','FGB3JPL1SWO5XCM'),
   ('Kadeem','Coelho','kadeem.coelho@bol.com','DWF4GQZ7XQL7RQP');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Ahmed','Das Neves','dasneves.ahmed@outlook.com','RKR8DJK6DAG8EKH'),
   ('Drew','Lima','lima.drew@bol.com','RHW3HUC9PLB2WWN'),
@@ -550,7 +550,7 @@ VALUES
   ('Price','Fagundes','pricefagundes@bol.com','KIX0JLG7CXO6CPW'),
   ('Zane','Chaves','chaveszane@bol.com','PNT6JBT2YGE2PNE'),
   ('Gavin','Ribeiro','rgavin2505@hotmail.com','OPV5EAP1AXR6SVS');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Drake','Lemos','d_lemos@outlook.com','XFM2BBL1CUL3EVN'),
   ('Lev','Reis','r_lev@gmail.com','BAW0NXE8VYR6JQQ'),
@@ -562,7 +562,7 @@ VALUES
   ('TaShya','Inacio','tinacio@hotmail.com','TKX7WLP9NQG0DAG'),
   ('Demetria','Teixeira','tdemetria4208@outlook.com','DRE8KYA8OOB3RBU'),
   ('Avram','Carvalho','a-carvalho@bol.com','MXO7GHG2XPW5HSL');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Dai','Lima','dai_lima@outlook.com','YGG1LMT4LUR7OOT'),
   ('Rigel','Lopes','r-lopes6237@bol.com','IIS3EQQ5CWL3LDD'),
@@ -574,7 +574,7 @@ VALUES
   ('Paula','Borges','borges_paula@bol.com','RSZ7UNB4MGD3EKX'),
   ('Hyacinth','Braz','braz_hyacinth@outlook.com','WXH8YFG9YYA4CLX'),
   ('Brielle','de Matos','dematosbrielle6654@hotmail.com','LDK3CLT1PFM3BOD');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Plato','Viana','pviana@gmail.com','XRU9UGD2OFU6JRV'),
   ('Seth','de Moraes','demoraesseth4801@hotmail.com','XVA8IYV2JYG3YPC'),
@@ -586,7 +586,7 @@ VALUES
   ('Barbara','Gomes','g.barbara5890@outlook.com','WAK4DFW4PTK3TTT'),
   ('Odysseus','Mendonca','mendonca_odysseus2557@gmail.com','BLT3ETK5VKE3VJC'),
   ('Allegra','Garcia','allegragarcia7463@gmail.com','YFN1HAL4QSV4UBX');
-INSERT INTO `tb_user` (`firstName`,`lastName`,`email`,`password`)
+INSERT INTO `tb_user` (`first_name`,`last_name`,`email`,`password`)
 VALUES
   ('Cody','Teixeira','teixeira_cody@bol.com','YRC6RJQ7MJJ3TXZ'),
   ('Amos','Messias','a.messias@hotmail.com','DGG6XKN7NMB8CDW'),
