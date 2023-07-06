@@ -1,13 +1,17 @@
 CREATE DATABASE IF NOT EXISTS challenge;
 
+drop table tb_user_role;
+drop table tb_user;
+
 CREATE TABLE tb_user (
     id BIGINT NOT NULL AUTO_INCREMENT,
-    firstName VARCHAR(30) NOT NULL,
-    lastName VARCHAR(30) NOT NULL,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
     email VARCHAR(50) NOT NULL,
-    password VARCHAR(64) NOT NULL,
+    password VARCHAR(70) NOT NULL,
 
-    CONSTRAINT PK_USER PRIMARY KEY(id)
+    CONSTRAINT PK_USER PRIMARY KEY(id),
+    CONSTRAINT UQ_USER_EMAIL UNIQUE(email)
 );
 
 CREATE TABLE tb_category (
@@ -22,7 +26,7 @@ CREATE TABLE tb_product (
     date DATETIME NOT NULL,
     description VARCHAR(128) NOT NULL,
     name VARCHAR(50) NOT NULL,
-    imgUrl VARCHAR(128) NOT NULL,
+    img_url VARCHAR(128) NOT NULL,
     price DECIMAL NOT NULL,
 
     CONSTRAINT PK_PRODUCT PRIMARY KEY(id)
