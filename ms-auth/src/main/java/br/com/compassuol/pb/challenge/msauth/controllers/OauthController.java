@@ -8,8 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/oauth")
 public class OauthController {
 
+    /**
+     * {@link br.com.compassuol.pb.challenge.msauth.filters.JWTTokenGeneratorFilter} will handle this request
+     */
     @PostMapping("token")
     public void getToken() {
     }
+
 
 }

@@ -20,21 +20,25 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import static br.com.compassuol.pb.challenge.msauth.constants.SecurityConstants.JWT_EXPIRATION;
+import static br.com.compassuol.pb.challenge.msauth.constants.SecurityConstants.JWT_KEY;
 
 public class JWTTokenGeneratorFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if (authentication != null) {
-            SecretKey secretKey = Keys.hmacShaKeyFor(SecurityConstants.JWT_KEY.getBytes(StandardCharsets.UTF_8));
+            SecretKey secretKey = Keys.hmacShaKeyFor(JWT_KEY.getBytes(StandardCharsets.UTF_8));
             String jwt = Jwts.builder().setIssuer("compassuol").setSubject("JWT Token")
                     .claim("username", authentication.getName())
                     .claim("authorities", populateAuthorities(authentication.getAuthorities()))
                     .setIssuedAt(new Date())
-                    .setExpiration(new Date(new Date().getTime() + 3000000))
+                    .setExpiration(new Date(new Date().getTime() + JWT_EXPIRATION))
                     .signWith(secretKey).compact();
 
-            response.setHeader("Authorization", jwt);
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8");
+            response.getWriter().write("{\"token\": \"" + jwt + "\"}");
         }
 
         filterChain.doFilter(request, response);
