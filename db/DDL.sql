@@ -1,8 +1,5 @@
 CREATE DATABASE IF NOT EXISTS challenge;
 
-drop table tb_user_role;
-drop table tb_user;
-
 CREATE TABLE tb_user (
     id BIGINT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30) NOT NULL,
@@ -57,5 +54,17 @@ CREATE TABLE tb_user_role (
     CONSTRAINT FK_ROLE_USER_ROLE FOREIGN KEY(id_role) REFERENCES tb_role(id)
 );
 
+CREATE TABLE challenge.tb_email
+(
+    id           BIGINT AUTO_INCREMENT NOT NULL,
+    from_email   VARCHAR(128)          NOT NULL,
+    from_name    VARCHAR(128)          NOT NULL,
+    reply_to     VARCHAR(128)          NOT NULL,
+    to_email         VARCHAR(128)          NOT NULL,
+    subject      VARCHAR(128)          NOT NULL,
+    body         TEXT                  NOT NULL,
+    content_type VARCHAR(128)          NOT NULL,
+    CONSTRAINT pk_tb_email PRIMARY KEY (id)
+);
 
 
