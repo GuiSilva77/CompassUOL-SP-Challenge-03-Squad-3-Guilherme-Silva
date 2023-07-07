@@ -1,8 +1,23 @@
 spring:
   application:
     name: ms-products
+  datasource:
+    url: jdbc:mysql://localhost:3306/challenge
+    username: anakin
+    password: hellothere
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+  rabbitmq:
+    host: localhost
+    username: anakin
+    password: hellothere
 server:
   port: 8200
+
 
 eureka:
   client:
