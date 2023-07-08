@@ -1,0 +1,26 @@
+services:
+  db:
+    container_name: mysql
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: osjedipassword
+      MYSQL_DATABASE: challenge
+      MYSQL_USER: anakin
+      MYSQL_PASSWORD: hellothere
+    volumes:
+      - ./docker/sql:/docker-entrypoint-initdb.d
+
+  queue:
+    container_name: rabbitmq
+    image: rabbitmq:management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+        RABBITMQ_DEFAULT_USER: anakin
+        RABBITMQ_DEFAULT_PASS: hellothere
+    volumes:
+      - ./docker/rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./docker/rabbitmq/definitions.json:/etc/rabbitmq/definitions.json
