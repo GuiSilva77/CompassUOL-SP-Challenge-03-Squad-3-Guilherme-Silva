@@ -1,9 +1,11 @@
 package br.com.compassuol.pb.challenge.msnotification.entities;
 
 import br.com.compassuol.pb.challenge.msnotification.entities.dto.EmailDto;
+import br.com.compassuol.pb.challenge.msnotification.entities.enums.EmailStatus;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
+
+import java.time.LocalDateTime;
 
 import static jakarta.persistence.GenerationType.IDENTITY;
 
@@ -12,14 +14,13 @@ import static jakarta.persistence.GenerationType.IDENTITY;
         name = "tb_email",
         schema = "challenge"
 )
-public class EmailTemplate {
+public class Email {
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
     @Size(max = 128)
-    @Email
     @Column(name = "from_email", nullable = false)
     private String fromEmail;
 
@@ -32,26 +33,31 @@ public class EmailTemplate {
     private String replyTo;
 
     @Size(max = 128)
-    @Email
     @Column(name = "to_email", nullable = false)
     private String to;
 
     @Size(max = 128)
-    @Column(name = "subject", nullable = false)
+    @Column(name = "email_subject", nullable = false)
     private String subject;
 
-    @Column(name = "body", nullable = false, columnDefinition = "TEXT")
+    @Column(name = "email_body", nullable = false, columnDefinition = "TEXT")
     private String body;
 
     @Size(max = 128)
     @Column(name = "content_type", nullable = false)
     private String contentType;
 
+    @Column(name = "email_status", nullable = false)
+    @Enumerated(EnumType.STRING)
+    private EmailStatus status;
 
-    public EmailTemplate() {
+    @Column(name = "send_date", nullable = false)
+    private LocalDateTime sendDate;
+
+    public Email() {
     }
 
-    public EmailTemplate(String fromEmail, String fromName, String replyTo, String to, String subject, String body, String contentType) {
+    public Email(String fromEmail, String fromName, String replyTo, String to, String subject, String body, String contentType) {
         this.fromEmail = fromEmail;
         this.fromName = fromName;
         this.replyTo = replyTo;
@@ -123,6 +129,22 @@ public class EmailTemplate {
 
     public void setContentType(String contentType) {
         this.contentType = contentType;
+    }
+
+    public EmailStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(EmailStatus status) {
+        this.status = status;
+    }
+
+    public LocalDateTime getSendDate() {
+        return sendDate;
+    }
+
+    public void setSendDate(LocalDateTime sendDate) {
+        this.sendDate = sendDate;
     }
 
     public EmailDto toDto() {
