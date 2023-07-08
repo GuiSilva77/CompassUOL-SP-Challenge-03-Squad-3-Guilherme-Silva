@@ -56,14 +56,16 @@ CREATE TABLE tb_user_role (
 
 CREATE TABLE challenge.tb_email
 (
-    id           BIGINT AUTO_INCREMENT NOT NULL,
-    from_email   VARCHAR(128)          NOT NULL,
-    from_name    VARCHAR(128)          NOT NULL,
-    reply_to     VARCHAR(128)          NOT NULL,
-    to_email         VARCHAR(128)          NOT NULL,
-    subject      VARCHAR(128)          NOT NULL,
-    body         TEXT                  NOT NULL,
-    content_type VARCHAR(128)          NOT NULL,
+    id            BIGINT AUTO_INCREMENT NOT NULL,
+    from_email    VARCHAR(128)          NOT NULL,
+    from_name     VARCHAR(128)          NOT NULL,
+    reply_to      VARCHAR(128)          NOT NULL,
+    to_email      VARCHAR(128)          NOT NULL,
+    email_subject VARCHAR(128)          NOT NULL,
+    email_body    TEXT                  NOT NULL,
+    content_type  VARCHAR(128)          NOT NULL,
+    email_status  VARCHAR(255)          NOT NULL,
+    send_date     datetime              NOT NULL,
     CONSTRAINT pk_tb_email PRIMARY KEY (id)
 );
 

@@ -33,13 +33,6 @@
   "policies": [],
   "queues": [
     {
-      "name": "email_send",
-      "vhost": "/",
-      "durable": true,
-      "auto_delete": false,
-      "arguments": {}
-    },
-    {
       "name": "user_notif",
       "vhost": "/",
       "durable": true,
@@ -59,14 +52,6 @@
     }
   ],
   "bindings": [
-    {
-      "source": "exchange",
-      "vhost": "/",
-      "destination": "email_send",
-      "destination_type": "queue",
-      "routing_key": "email_send",
-      "arguments": {}
-    },
     {
       "source": "exchange",
       "vhost": "/",
