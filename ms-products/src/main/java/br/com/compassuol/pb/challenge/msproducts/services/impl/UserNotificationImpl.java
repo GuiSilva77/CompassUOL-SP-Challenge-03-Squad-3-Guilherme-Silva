@@ -1,9 +1,12 @@
 package br.com.compassuol.pb.challenge.msproducts.services.impl;
 
-import br.com.compassuol.pb.challenge.msproducts.entities.dto.NotificationDto;
+import br.com.compassuol.pb.challenge.msproducts.entities.dto.EmailDto;
+import br.com.compassuol.pb.challenge.msproducts.entities.enums.EmailType;
 import br.com.compassuol.pb.challenge.msproducts.services.UserNotificationService;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
+
+import static br.com.compassuol.pb.challenge.msproducts.constants.EmailConstants.*;
 
 @Service
 public class UserNotificationImpl implements UserNotificationService {
@@ -16,15 +19,29 @@ public class UserNotificationImpl implements UserNotificationService {
 
     @Override
     public void sendNewUserNotification(String email, String name) {
-            NotificationDto notificationDto = new NotificationDto(name, email, "NEW_USER");
+            EmailDto emailDto = generateTemplate(email, name, "NEW_USER");
 
-            rabbitTemplate.convertAndSend("exchange", "user_notif", notificationDto);
+            rabbitTemplate.convertAndSend("exchange", "user_notif", emailDto);
     }
 
     @Override
     public void sendUserModifiedNotification(String email, String name) {
-        NotificationDto notificationDto = new NotificationDto(name, email, "USER_MODIFIED");
+        EmailDto emailDto = generateTemplate(email, name, "USER_MODIFIED");
 
-        rabbitTemplate.convertAndSend("exchange", "user_notif", notificationDto);
+        rabbitTemplate.convertAndSend("exchange", "user_notif", emailDto);
+    }
+
+    public EmailDto generateTemplate(String email, String name, String type) {
+
+        return new EmailDto(
+                EMAIL_SENDER, EMAIL_NAME, name, email,
+                EmailType.valueOf(type).equals(EmailType.NEW_USER) ?
+                        EMAIL_SUBJECT_NEW_USER :
+                        EMAIL_SUBJECT_USER_MODIFIED,
+                String.format(
+                        EmailType.valueOf(type).equals(EmailType.NEW_USER) ?
+                                EMAIL_BODY_NEW_USER :
+                                EMAIL_BODY_USER_MODIFIED,
+                        name), EMAIL_CONTENT_TYPE_HTML);
     }
 }

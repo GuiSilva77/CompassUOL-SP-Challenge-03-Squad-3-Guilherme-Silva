@@ -1,4 +1,4 @@
-package br.com.compassuol.pb.challenge.msnotification.constants;
+package br.com.compassuol.pb.challenge.msproducts.constants;
 
 public class EmailConstants {
 
@@ -7,7 +7,7 @@ public class EmailConstants {
 
     public static final String EMAIL_SUBJECT_NEW_USER = "Welcome to Company";
 
-    public static final String EMAIL_BODY_NEW_USER = "<<html><body><p>Hi, %s</p><p>Welcome to Company!</p><p>Thank you for joining us.</p><p>Best regards,</p><p>Company Team</p></body></html>";
+    public static final String EMAIL_BODY_NEW_USER = "<html><body><p>Hi, %s</p><p>Welcome to Company!</p><p>Thank you for joining us.</p><p>Best regards,</p><p>Company Team</p></body></html>";
 
     public static final String EMAIL_SUBJECT_USER_MODIFIED = "Your account has been modified!";
 
