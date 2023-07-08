@@ -7,7 +7,6 @@ import br.com.compassuol.pb.challenge.msnotification.services.EmailService;
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
 import jakarta.transaction.Transactional;
-import org.springframework.mail.MailException;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
@@ -41,7 +40,7 @@ public class EmailServiceImpl implements EmailService {
             javaMailSender.send(message);
 
             email.setStatus(EmailStatus.SENT);
-        } catch (MailException e) {
+        } catch (Exception e) {
             email.setStatus(EmailStatus.ERROR);
         } finally {
             emailSaved = emailRepository.save(email);
