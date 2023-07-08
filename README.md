@@ -45,11 +45,6 @@ To manage the users, you will need to send a request to the products microservic
 | GET    | /users/:id                                                   | Get a user by id                                   |
 | PUT    | /users/:id                                                   | Update a user by id                                |
 
-## Architecture
-The following diagram shows the architecture of the project:
-
-![](.\docs\Challenge Architeture.png)
-
 ## Technologies
 The following technologies were used in this project:
  - [Java 17](https://www.oracle.com/java/technologies/downloads/#java17)
