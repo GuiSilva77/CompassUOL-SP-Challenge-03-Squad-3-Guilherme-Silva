@@ -33,10 +33,6 @@ public class Category {
         this.name = name;
     }
 
-    public Category(@NotNull String name) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
     }
