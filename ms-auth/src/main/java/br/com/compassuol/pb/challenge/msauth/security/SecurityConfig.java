@@ -33,7 +33,7 @@ public class SecurityConfig {
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
                 .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class)
                 .authorizeHttpRequests(request -> request
-                        .anyRequest().authenticated())
+                        .requestMatchers("/oauth/token").authenticated())
                 .httpBasic(Customizer.withDefaults());
 
         return http.build();

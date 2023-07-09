@@ -22,8 +22,7 @@ public class TestSecurityConfig {
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .csrf(AbstractHttpConfigurer::disable)
             .authorizeHttpRequests(request -> request
-                    .requestMatchers("/products/**").permitAll()
-                    .requestMatchers("/users/**").permitAll());
+                    .requestMatchers("/products/**").permitAll());
 
         return http.build();
     }

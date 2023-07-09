@@ -23,11 +23,6 @@ class SecurityConfigTest {
     }
 
     @Test
-    void passwordEncoder() {
-        assertNotNull(applicationContext.getBean("passwordEncoder"));
-    }
-
-    @Test
     void corsConfiguration() {
         assertNotNull(applicationContext.getBean("getCorsConfiguration"));
     }

@@ -12,7 +12,6 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: validate
-
 server:
   port: 8100
 
