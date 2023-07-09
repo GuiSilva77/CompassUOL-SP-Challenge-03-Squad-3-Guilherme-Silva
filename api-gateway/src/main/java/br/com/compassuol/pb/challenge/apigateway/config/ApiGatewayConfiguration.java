@@ -12,7 +12,7 @@ public class ApiGatewayConfiguration {
     public RouteLocator gatewayRouter(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(p -> p.path("/users/**")
-                        .uri("lb://ms-products"))
+                        .uri("lb://ms-users"))
                 .route(p -> p.path("/products/**")
                         .uri("lb://ms-products"))
                 .route(p -> p.path("/oauth/**")
