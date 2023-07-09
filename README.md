@@ -1,7 +1,7 @@
 # Challenge 3 - Compass.UOL
 
 ---
-This challenge consists of a ecossystem of microservices that will be responsible for the management of users and products.
+This challenge consists of an ecosystem of microservices that will be responsible for the management of users and products.
 There are five microservices in this project, all of them written in [Java 17](https://www.oracle.com/java/technologies/downloads/#java17) and using [Spring Boot](https://spring.io/projects/spring-boot) as the framework.
 
 | Microservice    | Description                      | Port            |
@@ -10,7 +10,8 @@ There are five microservices in this project, all of them written in [Java 17](h
 | api-gateway     | application gateway              | 8080            |
 | ms-auth         | authentication and authorization | 8100            |
 | ms-notification | notification via email           | 8800 (not used) |
-| ms-products     | product and user management      | 8200            |
+| ms-products     | product management               | 8200            |
+| ms-users        | user management                  | 8300            |
 
 ## How to run
 To run this project, you will need to have [Docker](https://www.docker.com/) installed on your machine. After that, you can run the following command in the root folder of the project:
@@ -26,7 +27,7 @@ To use the microservices, you will need to authenticate yourself. To do that, yo
 successful authentication you will receive a token that you will need to send in the header of every request to the microservices.
 
 ### Products
-To manage the products, you will need to send a request to the products microservice. The following endpoints are available:
+To manage the products, you will need to send a request to the product's microservice. The following endpoints are available:
 
 | Method | Endpoint                                                     | Description                                        |
 |--------|--------------------------------------------------------------|----------------------------------------------------|
@@ -37,7 +38,7 @@ To manage the products, you will need to send a request to the products microser
 | PUT    | /products /:id                                               | Update a product by id                             |
 
 ### Users
-To manage the users, you will need to send a request to the products microservice. The following endpoints are available:
+To manage the users, you will need to send a request to the user's microservice. The following endpoints are available:
 
 | Method | Endpoint                                                     | Description                                        |
 |--------|--------------------------------------------------------------|----------------------------------------------------|
