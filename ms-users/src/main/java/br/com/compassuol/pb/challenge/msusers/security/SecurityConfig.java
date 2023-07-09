@@ -1,10 +1,10 @@
-package br.com.compassuol.pb.challenge.msauth.security;
+package br.com.compassuol.pb.challenge.msusers.security;
 
-import br.com.compassuol.pb.challenge.msauth.filters.JWTTokenGeneratorFilter;
+import br.com.compassuol.pb.challenge.msusers.filters.CsrfCookieFilter;
+import br.com.compassuol.pb.challenge.msusers.filters.JwtValidatorFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -19,7 +19,6 @@ import java.util.Collections;
 
 @Configuration
 public class SecurityConfig {
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         CsrfTokenRequestAttributeHandler csrfTokenRequestAttributeHandler = new CsrfTokenRequestAttributeHandler();
@@ -28,13 +27,13 @@ public class SecurityConfig {
         http.sessionManagement(session -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .csrf(csrf -> csrf
-                        .csrfTokenRequestHandler(csrfTokenRequestAttributeHandler)
                         .ignoringRequestMatchers("/**")
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
-                .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class)
+                .addFilterBefore(new JwtValidatorFilter(), BasicAuthenticationFilter.class)
+                .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/oauth/token").authenticated())
-                .httpBasic(Customizer.withDefaults());
+                        .requestMatchers("/users/**").hasRole("ADMIN")
+                        .anyRequest().authenticated());
 
         return http.build();
     }
@@ -50,7 +49,7 @@ public class SecurityConfig {
         config.setAllowedOrigins(Collections.singletonList("*"));
         config.setAllowedMethods(Collections.singletonList("*"));
         config.setAllowCredentials(true);
-        config.setAllowedHeaders(Collections.singletonList("*"));
+        config.setAllowedHeaders(Collections.singletonList("Authorization"));
         config.setMaxAge(3600L);
         return config;
     }
