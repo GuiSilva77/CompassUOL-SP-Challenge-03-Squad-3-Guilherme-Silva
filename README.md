@@ -46,13 +46,16 @@ To manage the users, you will need to send a request to the user's microservice.
 | GET    | /users/:id                                                   | Get a user by id                                   |
 | PUT    | /users/:id                                                   | Update a user by id                                |
 
+## Tracing
+By default, the tracing is enabled in the microservices. To see the traces, you can access the following endpoint: `http://localhost:9411/zipkin/`.
+
 ## Technologies
 The following technologies were used in this project:
  - [Java 17](https://www.oracle.com/java/technologies/downloads/#java17)
  - [Spring Boot](https://spring.io/projects/spring-boot)
 
 For the database and message broker, the following technologies were used:
- - [PostgreSQL](https://www.postgresql.org/)
+ - [MySQL](https://www.mysql.com/)
  - [RabbitMQ](https://www.rabbitmq.com/)
 
 For the authentication and authorization, the following technologies were used:
@@ -68,6 +71,11 @@ For the API gateway, the following technologies were used:
 For the email notification, the following technologies were used:
  - [Spring Mail](https://spring.io/projects/spring-boot)
  - [Google SMTP](https://support.google.com/a/answer/176600?hl=en)
+
+For the tracing, the following technologies were used:
+ - [Micrometer](https://micrometer.io/)
+ - [OpenTelemetry](https://opentelemetry.io/)
+ - [Zipkin](https://zipkin.io/)
 
 ## Author
 - Guilherme Silva
