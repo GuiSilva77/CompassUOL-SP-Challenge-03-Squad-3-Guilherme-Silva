@@ -24,3 +24,10 @@ services:
     volumes:
       - ./docker/rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
       - ./docker/rabbitmq/definitions.json:/etc/rabbitmq/definitions.json
+
+  zipkin:
+    container_name: zipkin
+    image: openzipkin/zipkin:2.23
+    ports:
+      - 9411:9411
+
