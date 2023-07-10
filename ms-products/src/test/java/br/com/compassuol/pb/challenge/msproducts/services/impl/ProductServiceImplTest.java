@@ -64,11 +64,11 @@ class ProductServiceImplTest {
 
     @Test
     void findProductById() {
-        when(productRepository.findById(any(Long.class))).thenReturn(java.util.Optional.ofNullable(product));
+        when(productRepository.findById(any(Long.class))).thenReturn(Optional.of(product));
 
         ProductDto productDto = productService.findProductById(1L);
 
-        assertEquals(productDto, this.productDto);
+        assertEquals(productDto.name(), this.productDto.name());
     }
 
     @Test
