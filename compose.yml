@@ -12,6 +12,7 @@ services:
     volumes:
       - ./docker/sql:/docker-entrypoint-initdb.d
 
+#C
   queue:
     container_name: rabbitmq
     image: rabbitmq:management
